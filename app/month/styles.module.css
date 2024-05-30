@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  background-color: white;
+  border-radius: 20px;
+}
+
+.date {
+  font-size: 24px;
+  text-align: center;
+}
+
+.button {
+  all: unset;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  margin: 0px 5px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button:active {
+  transform: scale(1.15);
+}
+
+.button:disabled {
+  filter: grayscale(1);
+  cursor: default;
+}
+
+.button:disabled:active {
+  transform: none;
+}
+.button:disabled:hover {
+  transform: none;
+}

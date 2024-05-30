@@ -1,0 +1,11 @@
+.img {
+  flex: 1;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  background-size: cover;
+  background-image: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbMPkY_iVZhFoezX9Axw0x_t8MzRzJ50bznJXxmWCK1R2H_SAdV542GRYO9dZbfal_ik7sDo_nK9pMOoAfTu0ncy1TxyOuLlmQ");
+}
