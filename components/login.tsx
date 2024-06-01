@@ -19,7 +19,7 @@ export default function LoginPage() {
     <div className={styles.container}>
       <h1>♥우리의 비밀번호♥ 힌트: 4자리</h1>
       <div className={styles.pwdForm}>
-        <input type="text" value={pwd} className={styles.inputText} />
+        <input type="text" value={pwd} className={styles.inputText} readOnly />
         <button onClick={() => setPwd((p) => p.slice(0, -1))}>🔙</button>
         <button onClick={checkPwd}>✅</button>
       </div>
